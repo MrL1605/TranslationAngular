@@ -1,0 +1,17 @@
+{
+  "translations": {
+    "Hello": {
+      "value": "Hallo",
+      "description": "Hello message"
+    },
+    "World": {
+      "value": "Wereld",
+      "description": "World message"
+    },
+    "What if this could be translated": {
+      "value": "Wat als dit zou kunnen worden vertaald",
+      "description": "What if message"
+    }
+  }
+}
+

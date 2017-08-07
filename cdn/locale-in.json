@@ -1,0 +1,16 @@
+{
+  "translations": {
+    "Hello": {
+      "value": "नमस्ते",
+      "description": "Hello message"
+    },
+    "World": {
+      "value": "विश्व",
+      "description": "World message"
+    },
+    "What if this could be translated": {
+      "value": "क्या होगा अगर इसका अनुवाद किया जा सकता है",
+      "description": "What if message"
+    }
+  }
+}

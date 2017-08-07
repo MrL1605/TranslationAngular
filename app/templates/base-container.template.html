@@ -1,0 +1,27 @@
+
+<div style="border: solid floralwhite ;box-shadow: 2px 2px 5px darkgray">
+
+    <h2>
+        It Works!
+    </h2>
+
+
+    <h3>
+        <span trl>Hello World in</span><span>{{getLangValue(trlLang) | trl }}</span>
+    </h3>
+
+    <label>
+        Choose Language :
+        <select [(ngModel)]="trlLang" name="language_select" (change)="alterLang()">
+            <option [value]="-1">{{trlService.trlDefaultLang}}</option>
+            <option *ngFor="let lang of trlLangs;let i=index" [value]="i">{{lang}}</option>
+        </select>
+    </label>
+
+    <button (click)="addChild()">Add Child Component</button>
+
+</div>
+
+<child></child>
+
+<child *ngFor="let child of childArr"></child>
